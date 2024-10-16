@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(203, 198, 198);
+}
+#main-section
+{
+    background-color: white;
+    border: 1px solid gray;
+    width: 450px;
+    height: 300px;
+    margin: 40px auto;
+}
+h2{
+    text-align: center;
+    color: cadetblue;
+}
+p{
+    margin-left: 8px;
+    color: cadetblue;
+}
+input[type="text"]:hover ,input[type="number"]:hover
+{
+     background-color: burlywood;
+}
+input[type="text"] ,input[type="number"]{
+    width: 400px;
+    height: 15px;
+    margin: 10px 10px;
+}
+#Calculate{
+    border-radius: 15px;
+    background-color:#4caf50 ;
+    width: 400px;
+    height: 38px;
+    margin: 10px 10px;
+}
